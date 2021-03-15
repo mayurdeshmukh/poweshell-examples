@@ -1,0 +1,25 @@
+Notepad ++
+
+Download Package - Invoke-WebRequest https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.3/npp.7.9.3.Installer.x64.exe -OutFile "C:\Users\devops\Downloads\npp.7.9.3.Installer.x64.exe"
+
+Install exe - Start-Process -FilePath "C:\Users\devops\Downloads\npp.7.9.3.Installer.x64" -ArgumentList /S, /v, /qn -Wait
+
+-------------------------------------------------
+
+Filezila -
+
+Invoke-WebRequest https://download.filezilla-project.org/client/FileZilla_3.52.2_win64_sponsored-setup.exe -OutFile "C:\Users\devops\Downloads\FileZilla_3.52.2_win64_sponsored-setup.exe"
+
+Start-Process -FilePath "C:\Users\devops\Downloads\FileZilla_3.52.2_win64_sponsored-setup.exe" -ArgumentList /S, /v, /qn -Wait
+
+
+-------------------------------------------------
+
+WinSCP -
+
+Invoke-WebRequest https://winscp.net/download/WinSCP-5.17.10-Setup.exe  -OutFile "C:\Users\devops\Downloads\WinSCP-5.17.10-Setup.exe"
+
+Start-Process -FilePath "C:\Users\devops\Downloads\WinSCP-5.17.10-Setup.exe" -ArgumentList /S, /v, /qn -Wait
+
+
+-------------------------------------------------
